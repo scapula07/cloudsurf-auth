@@ -45,6 +45,7 @@ export default function GoogleRedirect() {
 
         <div className='flex flex-col justify-center space-y-6 py-4 px-8 items-center justify-center w-full h-full'>
               <h5 className='text-lg '>You are logged in</h5>
+              <h5 className='text-lg '>Refresh page to get access token</h5>
 
               <h5 className='text-purple-700 hover:underline text-lg' onClick={open}>Click to open extension</h5>
              
