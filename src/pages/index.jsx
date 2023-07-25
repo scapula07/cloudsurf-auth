@@ -26,6 +26,9 @@ export default function Index() {
             <h5 className='text-xl font-semibold text-purple-700'>Cloud surf  </h5>
         </div>
 
+        <Link to="/google-redirect"><h1>Go</h1></Link>
+        <Link to="/dropbox-redirect"><h1>Go</h1></Link>
+
         <div className='flex py-4 px-8 items-center justify-center w-full h-full'>
                <div className='w-1/2 h-56 border flex flex-col items-center  py-6 rounded-lg space-y-6'>
                      <h5 className='text-lg font-semibold text-slate-700'>Sign in with</h5>
@@ -42,8 +45,7 @@ export default function Index() {
             
         </div>
         
-        <Link to="/google-redirect"><h5>Go</h5></Link>
-        <Link to="/dropbox-redirect"><h5>Go</h5></Link>
+      
 
     </div>
   )
