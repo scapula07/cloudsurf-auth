@@ -1,5 +1,7 @@
 import { useState,useEffect } from 'react'
 import { api } from '../_api'
+import {Link} from "react-router-dom"
+
 
 export default function Index() {
     const [url1,setUrl1]=useState("")
@@ -39,6 +41,8 @@ export default function Index() {
                 </div>
             
         </div>
+        <Link to="/google-redirect">Go</Link>
+        <Link to="/dropbox-redirect">Go</Link>
 
     </div>
   )

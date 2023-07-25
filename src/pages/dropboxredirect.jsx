@@ -1,6 +1,7 @@
 import React,{useState,useEffect} from 'react'
 import { api } from '../_api'
 import toast, { Toaster } from 'react-hot-toast';
+import {Link} from "react-router-dom"
 
 export default function DropBoxRedirect() {
     const [token,setToken]=useState()
