@@ -11,7 +11,7 @@ function App() {
 
   return (
     <Routes>
-        <Route exact path="/home" element={<Index />} />
+        <Route exact path="/" element={<Index />} />
         <Route exact path="/google-redirect/*" element={<GoogleRedirect />} />
         <Route exact path="/dropbox-redirect/*" element={<DropBoxRedirect />} />
 
