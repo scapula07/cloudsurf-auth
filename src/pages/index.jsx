@@ -41,8 +41,9 @@ export default function Index() {
                 </div>
             
         </div>
-        <Link to="/google-redirect">Go</Link>
-        <Link to="/dropbox-redirect">Go</Link>
+        
+        <Link to="/google-redirect"><h5>Go</h5></Link>
+        <Link to="/dropbox-redirect"><h5>Go</h5></Link>
 
     </div>
   )
