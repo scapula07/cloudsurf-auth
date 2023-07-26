@@ -4,7 +4,7 @@ import axios from "axios";
 export const api= {
     getGoogleAuth: async function () {
         
-        const url=`http://localhost:3002/grant-access`
+        const url=`https://cloudsurf.onrender.com/grant-access`
 
       const config = {
         headers:{
@@ -27,7 +27,7 @@ export const api= {
 
      getGoogleToken: async function () {
         
-        const url=`http://localhost:3002/get-google-token`
+        const url=`https://cloudsurf.onrender.com/get-google-token`
 
       const config = {
         headers:{
@@ -49,7 +49,7 @@ export const api= {
      },
      getdropBoxAuth: async function () {
         
-        const url=`http://localhost:3002/grant-dropbox-access`
+        const url=`https://cloudsurf.onrender.com/grant-dropbox-access`
 
       const config = {
         headers:{
@@ -72,7 +72,7 @@ export const api= {
 
      getDropBoxToken: async function () {
         
-        const url=`http://localhost:3002/get-dropbox-token`
+        const url=`https://cloudsurf.onrender.com/get-dropbox-token`
 
       const config = {
         headers:{
